@@ -5,8 +5,8 @@
 # Those filters must be recognizable by Ransack. For example:
 #
 #   class FilterNumericInput < ::Formtastic::Inputs::NumberInput
-#     include FilterBase
-#     include FilterBase::SearchMethodSelect
+#     include Base
+#     include Base::SearchMethodSelect
 #
 #     filter :equals, :greater_than, :less_than
 #   end
